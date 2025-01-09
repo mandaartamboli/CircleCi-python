@@ -6,6 +6,7 @@ jobs:
   #environment(docker) in which python code will get run
     docker:
       - image: cimg/python:3.11
+      #docker image of circleci 
     steps:
       - checkout
       - run: python main.py
